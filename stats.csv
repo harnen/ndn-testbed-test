@@ -1,0 +1,9 @@
+,iter,src,dst,status
+0,1,/LIP6,/UCLA,0
+1,1,/UCLA,/LIP6,0
+2,2,/LIP6,/UCLA,0
+3,2,/UCLA,/LIP6,0
+4,3,/LIP6,/UCLA,0
+5,3,/UCLA,/LIP6,0
+6,4,/LIP6,/UCLA,0
+7,4,/UCLA,/LIP6,0

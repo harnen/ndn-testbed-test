@@ -1,0 +1,623 @@
+{
+    "UA": {
+        "name": "The University of Arizona",
+        "shortname": "UA",
+        "site": "http://hobo.cs.arizona.edu:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/arizona",
+        "fch-enabled": true,
+        "position": [ 32.22896140, -110.94832260 ]
+    },
+    "CSU": {
+        "name": "Colorado State University",
+        "shortname": "CSU",
+        "site": "http://mccoy.netsec.colostate.edu:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/colostate",
+        "fch-enabled": true,
+        "position": [ 40.57471750, -105.08482930 ]
+    },
+    "UM": {
+        "name": "University of Memphis",
+        "shortname": "UM",
+        "site": "http://titan.cs.memphis.edu:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/memphis",
+        "fch-enabled": false,
+        "position": [ 35.11860990, -89.93700109999999 ]
+    },
+    "NEU": {
+        "name": "Northeastern University",
+        "shortname": "NEU",
+        "site": "http://neu.testbed.named-data.net:80/",
+        "backbone": false,        
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/neu",
+        "fch-enabled": false,
+        "_real_position": [ 42.33987830, -71.08873579999999 ],
+        "position": [ 42.7, -71.08873579999999 ]
+    },
+    "MICH": {
+        "name": "University Michigan",
+        "shortname": "MICH",
+        "site": "http://michigan.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/umich",
+        "fch-enabled": true,
+        "_real_position": [ 42.10260390, -80.23171080000002 ],
+        "position": [ 42.50260390, -83.4 ]
+    },
+    "UIUC": {
+        "name": "University of Illinois, Urbana-Champaign",
+        "shortname": "UIUC",
+        "site": "http://ndnx.cs.illinois.edu:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/illinois",
+        "fch-enabled": false,
+        "_real_position": [ 40.10260390, -88.23171080000002 ],
+        "position": [ 40.60260390, -88.23171080000002 ]
+    },
+    "UCLA": {
+        "name": "University of California, Los Angeles",
+        "shortname": "UCLA",
+        "site": "http://spurs.cs.ucla.edu:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/ucla",
+        "fch-enabled": true,
+        "_real_position": [ 34.07282250, -118.43873980 ],
+        "position": [ 35.5, -120 ]
+    },
+    "REMAP": {
+        "name": "Remap at University of California, Los Angeles",
+        "shortname": "REMAP",
+        "site": "http://aleph.ndn.ucla.edu:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/ucla/remap",
+        "fch-enabled": false,
+        "_real_position": [ 34.07282250, -118.43873980 ],
+        "position": [ 34.4, -117.14807210 ]
+    },
+    "CAIDA": {
+        "name": "University of California San Diego",
+        "shortname": "CAIDA",
+        "site": "http://click.caida.org:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/org/caida",
+        "fch-enabled": false,
+        "_real_position": [ 32.87357720, -117.23781110 ],
+        "position": [ 31.87357720, -119.23781110 ]
+    },
+    "WU": {
+        "name": "Washington University in St. Louis",
+        "shortname": "WU",
+        "site": "http://wundngw.arl.wustl.edu:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/wustl",
+        "fch-enabled": false,
+        "_real_position": [ 38.64907010, -90.30334710 ],
+        "position": [ 38.14907010, -90.30334710 ]
+    },
+    "UCI": {
+        "name": "University of California, Irvine",
+        "shortname": "UCI",
+        "site": "http://ndnhub.ics.uci.edu:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/uci",
+        "fch-enabled": true,
+        "_real_position": [ 33.6495, -117.845798 ],
+        "position": [ 33.1495, -118.145798 ]
+    },
+    "BUPT": {
+        "name": "Beijing University of Posts and Telecommunications",
+        "shortname": "BUPT",
+        "site": "http://bupt.testbed.named-data.net:8080/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/edu/bupt",
+        "fch-enabled": false,
+        "_real_position": [ 39.59, 116.18 ],
+        "position": [ 37.40, 114.18 ]
+    },
+    "TONGJI": {
+        "name": "Tongji University",
+        "shortname": "TONGJI",
+        "site": "http://tongji.testbed.named-data.net:10421/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/edu/tongji",
+        "fch-enabled": true,
+        "_real_position": [ 31.12, 121.30 ],
+        "position": [ 31.12, 121.30 ]
+    },
+    "LIP6": {
+        "name": "University Pierre et Marie Curie, Sorbonne Universities LIP6",
+        "shortname": "LIP6",
+        "site": "http://ndnhub.ipv6.lip6.fr:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/fr/lip6",
+        "fch-enabled": true,
+        "_real_position": [ 48.50, 2.21 ],
+        "position": [ 48.50, 1.71 ]
+    },
+    "SYSTEMX": {
+        "name": "Institute for Technological Research SystemX",
+        "shortname": "SYSTEMX",
+        "site": "http://systemx-ndn-1.enst.fr:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/fr/irt-systemx",
+        "fch-enabled": true,
+        "_real_position": [ 48.71, 2.19],
+        "position": [ 48.71, 3.19]
+    },
+    "URJC": {
+        "name": "Universidad Rey Juan Carlos (King Juan Carlos University)",
+        "shortname": "URJC",
+        "site": "http://insula.gsyc.es:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/es/urjc",
+        "fch-enabled": true,
+        "_real_position": [ 40.3359, -3.8732],
+        "position": [ 41.3359, -3.8732]
+    },
+    "BASEL": {
+        "name": "University of Basel",
+        "shortname": "BASEL",
+        "site": "http://dmi-ndn-testbed1.dmi.unibas.ch:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/ch/unibas",
+        "fch-enabled": true,
+        "position": [ 47.55858, 7.58360]
+    },
+    "BERN": {
+        "name": "University of Bern",
+        "shortname": "BERN",
+        "site": "http://os-float172.cnds.unibe.ch:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/ch/unibe",
+        "fch-enabled": true,
+        "position": [ 46.8, 8.58360]
+    },
+    "WASEDA": {
+        "name": "Waseda University",
+        "shortname": "WASEDA",
+        "site": "http://ndn-tb.nz.comm.waseda.ac.jp:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/jp/waseda",
+        "fch-enabled": true,
+        "_real_position": [ 35.7092, 139.7193],
+        "position": [ 35.8092, 139.7193]
+    },
+    "BYU": {
+        "name": "Brigham Young University",
+        "shortname": "BYU",
+        "site": "http://pasta10.cs.byu.edu:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/byu",
+        "fch-enabled": false,
+        "position": [ 40.14, -111.39]
+    },
+    "ANYANG": {
+        "name": "Anyang University",
+        "shortname": "ANYANG",
+        "site": "http://anyang.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/kr/anyang",
+        "fch-enabled": true,
+        "position": [ 37.7, 127.00]
+    },
+    "GIST": {
+        "name": "Anyang University",
+        "shortname": "GIST",
+        "site": "http://103.22.221.33:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/kr/ac/gist",
+        "fch-enabled": false,
+        "position": [ 35.4, 126.80]
+    },
+    "KISTI": {
+        "name": "Korea Institute of Science and Technology Information",
+        "shortname": "KISTI",
+        "site": "http://kisti.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/kr/re/kisti",
+        "fch-enabled": true,
+        "_real_position": [ 36.8, 127.50],
+        "position": [ 36.0, 127.50]
+    },
+    "AFA": {
+        "name": "AFA Systems",
+        "shortname": "AFA",
+        "site": "http://93-42-157-82.ip87.fastwebnet.it:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/it/afasystems",
+        "fch-enabled": false,
+        "position": [ 42.1, 14.5]
+    },
+    "AAU": {
+        "name": "Austrian Alpen-Adria-Universtat",
+        "shortname": "AAU",
+        "site": "http://ndn-itec.aau.at:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/at/aau",
+        "fch-enabled": true,
+        "position": [ 46.7, 14.5]
+    },
+    "PADUA": {
+        "name": "University of Padua",
+        "shortname": "PADUA",
+        "site": "http://ndnnode.math.unipd.it:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/it/unipd",
+        "fch-enabled": true,
+        "position": [ 45.35858, 11.78360]
+    },
+    "NTNU": {
+        "name": "Norwegian University of Science and Technology",
+        "shortname": "NTNU",
+        "site": "http://ndn.item.ntnu.no5522:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/no/ntnu",
+        "fch-enabled": false,
+        "position": [ 63.5, 10.5]
+    },
+    "COPELABS": {
+        "name": "COPELABS, University Lusofona",
+        "shortname": "COPELABS",
+        "site": "http://copelabs.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/pt/ulusofona/copelabs",
+        "fch-enabled": false,
+        "position": [ 38.6, -9.0]
+    },
+    "AVEIRO": {
+        "name": "University Aveiro",
+        "shortname": "AVEIRO",
+        "site": "http://selficn.av.it.pt:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/pt/it/av",
+        "fch-enabled": true,
+        "position": [ 40.6, -9.0]
+    },
+    "UI": {
+        "name": "University of Indonesia",
+        "shortname": "UI",
+        "site": "http://indonesia.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/id/ac/ui",
+        "fch-enabled": false,
+        "position": [ -6.0, 106.8 ]
+    },
+    "GOETTINGEN": {
+        "name": "Goettingen University ",
+        "shortname": "GOETTINGEN",
+        "site": "http://k.extra.informatik.uni-goettingen.de:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/de/uni-goettingen",
+        "fch-enabled": true,
+        "position": [ 52.05858, 9.58360]
+    },
+    "OSAKA": {
+        "name": "Osaka University",
+        "shortname": "OSAKA",
+        "site": "http://ndn.ist.osaka-u.ac.jp.51:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/jp/ac/osaka-u",
+        "fch-enabled": true,
+        "position": [ 34.3, 135.7193],
+        "_real_position": [ 34.72, 135.5193]
+    },
+    "MINHO": {
+        "name": "University oh Minho",
+        "shortname": "MINHO",
+        "site": "http://netlab.gcom.di.uminho.pt:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/pt/uminho",
+        "fch-enabled": true,
+        "position": [ 41.8, -8.2]
+    },
+    "NIST": {
+        "name": "National Institute for Standards and Testing",
+        "shortname": "NIST",
+        "site": "https://ndn-01.antd.nist.gov/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/gov/nist",
+        "fch-enabled": false,
+        "position": [ 39.14907010, -76.5 ]
+    },
+    "UFPA": {
+        "name": "Federal University of Para, Brazil",
+        "shortname": "UFPA",
+        "site": "http://ufpa.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/br/ufpa",
+        "fch-enabled": false,
+        "position": [ -3.7, -49.6 ]
+    },
+    "SRRU": {
+        "name": "Surindra Rajabhat University, Thailand",
+        "shortname": "SRRU",
+        "site": "http://comsci2.srru.ac.t:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/th/ac/srru",
+        "fch-enabled": false,
+        "position": [ 15.3, 103.7 ]
+    },
+    "TNO": {
+        "name": "Netherlands Organization for Applied Scientific Research",
+        "shortname": "TNO",
+        "site": "http://tno.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/nl/tno",
+        "fch-enabled": true,
+        "position": [ 52.05858, 4.0]
+    },
+    "MSU": {
+        "name": "Mahasarakham University, Thailand",
+        "shortname": "MSU",
+        "site": "http://msu.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/th/ac/msu",
+        "fch-enabled": false,
+        "position": [ 17.3, 103.7 ]
+    },
+    "PKUSZ": {
+        "name": "Peking University Shenzhen Graduate School",
+        "shortname": "PKUSZ",
+        "site": "http://pkusz.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/edu/pkusz",
+        "fch-enabled": false,
+        "_real_position": [ 23.0, 114.0 ],
+        "position": [ 23.0, 114.0 ]
+    },
+    "CNIC": {
+        "name": "Computer Network Information Center, Chinese Academy of Sciences",
+        "shortname": "CNIC",
+        "site": "http://cnic.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/cas/cnic",
+        "fch-enabled": false,
+        "_real_position": [ 39.59, 116.18 ],
+        "position": [ 40.0, 112.0 ]
+    },
+    "UUM": {
+        "name": "Universiti Utara Malaysia",
+        "shortname": "UUM",
+        "site": "http://uum.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/my/edu/uum",
+        "fch-enabled": false,
+        "position": [ 6.6, 100.3 ]
+    },
+    "UASLP": {
+        "name": "Universidad Autónoma de San Luis Potosí",
+        "shortname": "UASLP",
+        "site": "http://uaslp.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/mx/uaslp",
+        "fch-enabled": true,
+        "position": [ 22.0, -100.5]
+    },
+    "CAGLIARI": {
+        "name": "Universita degli Sudi di Cagliari",
+        "shortname": "CAGLIARI",
+        "site": "http://lumiere.diee.unica.it:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/it/unica",
+        "fch-enabled": false,
+        "position": [ 39.1, 8.9]
+    },
+    "CORUNA": {
+        "name": "Universidade da Coruna",
+        "shortname": "CORUNA",
+        "site": "http://ndn.gtec.udc.es:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/es/udc",
+        "fch-enabled": true,
+        "position": [ 43.3, -8.2]
+    },
+    "UNIVH2C": {
+        "name": "University Hassan II Casablanca",
+        "shortname": "UNIVH2C",
+        "site": "http://196.200.164.99:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/ma/univh2c",
+        "fch-enabled": false,
+        "position": [ 33.5, -7.2]
+    },
+    "SAVI": {
+        "name": "SAVI, University of Toronto",
+        "shortname": "SAVI",
+        "site": "http://142.150.208.242:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/ca/utoronto",
+        "fch-enabled": true,
+        "position": [ 43.6, -79.4 ]
+    },
+    "LACL": {
+        "name": "Laboratoire D'Algorithmique, Complexite et Logique (LACL), Universite Paris-Est Creteil",
+        "shortname": "LACL",
+        "site": "http://ndn.lacl.fr:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/fr/lacl",
+        "fch-enabled": false,
+        "_real_position": [ 48.50, 2.21 ],
+        "position": [ 47.50, 2.50 ]
+    },
+    "MUMBAI_AWS": {
+        "name": "MUMBAI gateway at AWS in Mumbai, India",
+        "shortname": "MUMBAI_AWS",
+        "site": "http://mumbai.testbed.named-data.net:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "prefix": "ndn:/ndn/aws/mumbai",
+        "fch-enabled": true,
+        "position": [ 19.0, 73.2 ]
+    },
+    "AWS-US-E-1": {
+        "name": "AWS US East 1 Region, N. Virginia",
+        "shortname": "AWS-US-E-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 38.0, -78.5 ]
+    },
+    "AWS-US-E-2": {
+        "name": "AWS US East 2 Region, Ohio",
+        "shortname": "AWS-US-E-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "_real_position": [ 40.0, -83.0 ],
+        "position": [ 40.5, -82.0 ]
+    },
+    "AWS-US-W-1": {
+        "name": "AWS US West 1 Region, N. California",
+        "shortname": "AWS-US-W-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 41.1, -121.4 ]
+    },
+    "AWS-US-W-2": {
+        "name": "AWS US West 2 Region, Oregon",
+        "shortname": "AWS-US-W-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 44.1, -123.1 ]
+    },
+    "AWS-CA-C-1": {
+        "name": "AWS CA Central 1 Region, Toronto",
+        "shortname": "AWS-CA-W-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "_real_position": [ 43.6, -79.4 ],
+        "position": [ 44.6, -78.4 ]
+    },
+    "AWS-EU-W-1": {
+        "name": "AWS EU West 1 Region, Ireland",
+        "shortname": "AWS-EU-W-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 53.5, -7.0 ]
+    },
+    "AWS-EU-W-2": {
+        "name": "AWS EU West 2 Region, London",
+        "shortname": "AWS-EU-W-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 51.5, 0.1 ]
+    },
+    "AWS-EU-C-1": {
+        "name": "AWS EU Central 1 Region, Frankfurt",
+        "shortname": "AWS-EU-C-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "_real_position": [ 50.1, 8.7 ],
+        "position": [ 51.0, 9.5 ]
+    },
+    "AWS-AP-SE-1": {
+        "name": "AWS AP SouthEast 1 Region, Singapore",
+        "shortname": "AWS-AP-SE-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 1.4, 103.8 ]
+    },
+    "AWS-AP-SE-2": {
+        "name": "AWS AP SouthEast 2 Region, Sydney",
+        "shortname": "AWS-AP-SE-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ -33.9, 151.0 ]
+    },
+    "AWS-AP-NE-1": {
+        "name": "AWS AP NorthEast 1 Region, Tokyo",
+        "shortname": "AWS-AP-NE-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "_real_position": [ 35.6, 139.9 ],
+        "position": [ 35.0, 140.9 ]
+    },
+    "AWS-AP-NE-2": {
+        "name": "AWS AP NorthEast 2 Region, Seoul",
+        "shortname": "AWS-AP-NE-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "_real_position": [ 37.3, 127.0 ],
+        "position": [ 37.0, 128.0 ]
+    },
+    "AWS-SA-E-1": {
+        "name": "AWS SA East 1 Region, Sao Paolo",
+        "shortname": "AWS-SA-E-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ -23.2, -45.0 ]
+    }
+}
